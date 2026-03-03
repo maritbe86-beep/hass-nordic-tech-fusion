@@ -1,54 +1,67 @@
 Nordic Tech Fusion:
-  primary-color: "#88C0D0"
-  light-primary-color: "#95d3e3"
-  dark-primary-color: "#5e7f89"
+  ### AURORA ACCENTS (GREEN → TURQUOISE → PURPLE)
+  primary-color: "#7EE6A2"        # soft aurora green
+  accent-color: "#72D8E5"         # glacier turquoise
+  accent-medium: "#A88BFF"        # aurora violet
+  
+### BACKGROUNDS
+  background-color: "#1A1D21"
+  primary-background-color: "#1A1D21"
+  secondary-background-color: "#1A1D21"
+  lovelace-background: "#1A1D21"
 
-  accent-color: "#D08770"
-  accent-medium: "#EBCB8B"
+  card-background-color: "#22262B"
+  darker-card-background: "#16181C"
+  lighter-card-background: "#2A2F34"
 
-  background-color: "#272b30"
-  card-background-color: "#2f3338"
-  darker-card-background: "#1c1f22"
-  lighter-card-background: "#373c42"
-
-  sidebar-background-color: "#23272b"
-  sidebar-icon-color: "#9ba8b3"
-  sidebar-selected-icon-color: "#88c0d0"
-  sidebar-selected-text-color: "#eceff4"
-
-  text-color: "#ECEFF4"
-  primary-text-color: "#ECEFF4"
-  secondary-text-color: "#B0BEC5"
-  disabled-text-color: "#5c6165"
-
-  divider-color: "rgba(255, 255, 255, 0.06)"
-  border-color: "rgba(255, 255, 255, 0.1)"
-
+  ### WDC THEMING OVERRIDES
+  mdc-theme-background: "#1A1D21"
+  mdc-theme-surface: "#1A1D21"
+  mdc-theme-on-surface: "#E9EEF2"
+  
+  ### TEXT
+  text-color: "#E9EEF2"
+  primary-text-color: "#E9EEF2"
+  secondary-text-color: "#AAB4BD"
+  disabled-text-color: "#5D6267"
+  
+  ### SIDEBAR
+  sidebar-background-color: "#1C1F23"
+  sidebar-icon-color: "#8EA0AE"
+  sidebar-selected-icon-color: "#7EE6A2"     # aurora green
+  sidebar-selected-text-color: "#E9EEF2"
+  
+  ### BORDERS & DIVIDERS
+  divider-color: "rgba(255, 255, 255, 0.05)"
+  border-color: "rgba(255, 255, 255, 0.10)"
   ha-card-border-radius: "14px"
-  ha-card-box-shadow: "none"
-  ha-card-padding: "14px"
+  
+  ### HEADER
+  app-header-background-color: "#181A1D"
+  app-header-text-color: "#E9EEF2"
+  
+  ### ICONS
+  state-icon-color: "#7EE6A2"        # aurora green
+  state-icon-active-color: "#A88BFF" # aurora violet
+  
+  ### STATUS COLORS
+  success-color: "#8FDC91"
+  warning-color: "#F2DA8B"
+  error-color: "#E57C8D"
+  info-color: "#72D8E5"
+  
+  ### INTERACTIVE ELEMENTS
+  switch-checked-track-color: "#72D8E5"
+  switch-unchecked-button-color: "#E5E7EB"
+  switch-unchecked-track-color: "#4C566A"
 
-  app-header-background-color: "#1f2226"
-  app-header-text-color: "#eceff4"
+  slider-color: "#A88BFF"
+  slider-secondary-color: "#4C566A"
 
-  state-icon-color: "#88C0D0"
-  state-icon-active-color: "#8FBCBB"
+  input-idle-line-color: "#4C566A"
+  input-hover-line-color: "#72D8E5"
 
-  success-color: "#A3BE8C"
-  warning-color: "#EBCB8B"
-  error-color: "#BF616A"
-  info-color: "#81A1C1"
-
-  switch-checked-track-color: "#88C0D0"
-  switch-unchecked-button-color: "#d8dee9"
-  switch-unchecked-track-color: "#4c566a"
-
-  slider-color: "#88c0d0"
-  slider-secondary-color: "#4c566a"
-
-  input-idle-line-color: "#4c566a"
-  input-hover-line-color: "#88c0d0"
-
-  mdc-ripple-color: "#88c0d0"
-  mdc-checkbox-unchecked-color: "#d8dee9"
-  mdc-radio-unchecked-color: "#d8dee9"
+  ### MATERIAL / MDC
+  mdc-ripple-color: "#7EE6A2"
+  mdc-checkbox-unchecked-color: "#D8DEE9"
+  mdc-radio-unchecked-color: "#D8DEE9"
