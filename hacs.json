@@ -1,0 +1,8 @@
+{
+  "name": "Nordic Tech Fusion Theme",
+  "render_readme": true,
+  "filename": "nordic_tech_fusion.yaml",
+  "hide_default_branch": true,
+  "country": "NO",
+  "homeassistant": "2023.0.0"
+}
