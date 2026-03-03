@@ -1,10 +1,21 @@
 Nordic Tech Fusion:
-  ### AURORA ACCENTS (GREEN → TURQUOISE → PURPLE)
-  primary-color: "#7EE6A2"        # soft aurora green
-  accent-color: "#72D8E5"         # glacier turquoise
-  accent-medium: "#A88BFF"        # aurora violet
-  
-### BACKGROUNDS
+
+  #################################################
+  # AURORA ACCENTS (Green → Turquoise → Purple)
+  #################################################
+
+  primary-color: "#7EE6A2"          # Aurora green
+  accent-color: "#72D8E5"           # Glacier turquoise
+  accent-medium: "#A88BFF"          # Aurora violet
+
+  aurora-green: "#7EE6A2"
+  aurora-turquoise: "#72D8E5"
+  aurora-violet: "#A88BFF"
+
+  #################################################
+  # BACKGROUNDS
+  #################################################
+
   background-color: "#1A1D21"
   primary-background-color: "#1A1D21"
   secondary-background-color: "#1A1D21"
@@ -14,43 +25,77 @@ Nordic Tech Fusion:
   darker-card-background: "#16181C"
   lighter-card-background: "#2A2F34"
 
-  ### WDC THEMING OVERRIDES
-  mdc-theme-background: "#1A1D21"
-  mdc-theme-surface: "#1A1D21"
-  mdc-theme-on-surface: "#E9EEF2"
-  
-  ### TEXT
+  surface-1: "#1A1D21"
+  surface-2: "#22262B"
+  surface-3: "#2A2F34"
+
+  #################################################
+  # AURORA EFFECT LAYER (Reusable)
+  #################################################
+
+  aurora-glow-soft: "0 0 18px rgba(114, 216, 229, 0.15)"
+  aurora-glow-strong: "0 0 28px rgba(168, 139, 255, 0.25)"
+
+  aurora-gradient-soft: "radial-gradient(circle at 20% 20%, rgba(114,216,229,0.12), transparent 60%)"
+  aurora-gradient-alert: "radial-gradient(circle at 30% 10%, rgba(168,139,255,0.25), transparent 65%)"
+
+  #################################################
+  # TEXT
+  #################################################
+
   text-color: "#E9EEF2"
   primary-text-color: "#E9EEF2"
   secondary-text-color: "#AAB4BD"
   disabled-text-color: "#5D6267"
-  
-  ### SIDEBAR
+
+  #################################################
+  # SIDEBAR
+  #################################################
+
   sidebar-background-color: "#1C1F23"
   sidebar-icon-color: "#8EA0AE"
-  sidebar-selected-icon-color: "#7EE6A2"     # aurora green
+  sidebar-selected-icon-color: "#7EE6A2"
   sidebar-selected-text-color: "#E9EEF2"
-  
-  ### BORDERS & DIVIDERS
+
+  #################################################
+  # BORDERS & DIVIDERS
+  #################################################
+
   divider-color: "rgba(255, 255, 255, 0.05)"
   border-color: "rgba(255, 255, 255, 0.10)"
+
   ha-card-border-radius: "14px"
-  
-  ### HEADER
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(255,255,255,0.06)"
+  ha-card-box-shadow: "none"
+
+  #################################################
+  # HEADER
+  #################################################
+
   app-header-background-color: "#181A1D"
   app-header-text-color: "#E9EEF2"
-  
-  ### ICONS
-  state-icon-color: "#7EE6A2"        # aurora green
-  state-icon-active-color: "#A88BFF" # aurora violet
-  
-  ### STATUS COLORS
+
+  #################################################
+  # ICONS
+  #################################################
+
+  state-icon-color: "#7EE6A2"
+  state-icon-active-color: "#A88BFF"
+
+  #################################################
+  # STATUS COLORS
+  #################################################
+
   success-color: "#8FDC91"
   warning-color: "#F2DA8B"
   error-color: "#E57C8D"
   info-color: "#72D8E5"
-  
-  ### INTERACTIVE ELEMENTS
+
+  #################################################
+  # INTERACTIVE ELEMENTS
+  #################################################
+
   switch-checked-track-color: "#72D8E5"
   switch-unchecked-button-color: "#E5E7EB"
   switch-unchecked-track-color: "#4C566A"
@@ -61,7 +106,18 @@ Nordic Tech Fusion:
   input-idle-line-color: "#4C566A"
   input-hover-line-color: "#72D8E5"
 
-  ### MATERIAL / MDC
+  #################################################
+  # MATERIAL / MDC OVERRIDES
+  #################################################
+
+  mdc-theme-primary: "#7EE6A2"
+  mdc-theme-secondary: "#72D8E5"
+
+  mdc-theme-background: "#1A1D21"
+  mdc-theme-surface: "#1A1D21"
+  mdc-theme-on-surface: "#E9EEF2"
+
   mdc-ripple-color: "#7EE6A2"
+
   mdc-checkbox-unchecked-color: "#D8DEE9"
   mdc-radio-unchecked-color: "#D8DEE9"
