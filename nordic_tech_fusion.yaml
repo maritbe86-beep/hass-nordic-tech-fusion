@@ -5,14 +5,19 @@ Nordic Tech Fusion:
   accent-medium: "#A88BFF"        # aurora violet
   
 ### BACKGROUNDS
-  background-color: "#1A1D21"     
+  background-color: "#1A1D21"
   primary-background-color: "#1A1D21"
   secondary-background-color: "#1A1D21"
   lovelace-background: "#1A1D21"
-  
-  card-background-color: "#22262B"  
+
+  card-background-color: "#22262B"
   darker-card-background: "#16181C"
   lighter-card-background: "#2A2F34"
+
+  ### WDC THEMING OVERRIDES
+  mdc-theme-background: "#1A1D21"
+  mdc-theme-surface: "#1A1D21"
+  mdc-theme-on-surface: "#E9EEF2"
   
   ### TEXT
   text-color: "#E9EEF2"
