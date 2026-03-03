@@ -121,3 +121,24 @@ Nordic Tech Fusion:
 
   mdc-checkbox-unchecked-color: "#D8DEE9"
   mdc-radio-unchecked-color: "#D8DEE9"
+
+    #################################################
+  # FIX WHITE DROPDOWNS / SETTINGS PANELS
+  #################################################
+
+  mdc-select-fill-color: "#22262B"
+  mdc-select-idle-line-color: "#4C566A"
+  mdc-select-hover-line-color: "#72D8E5"
+
+  mdc-text-field-fill-color: "#22262B"
+  mdc-text-field-idle-line-color: "#4C566A"
+  mdc-text-field-hover-line-color: "#72D8E5"
+
+  mdc-menu-surface-background-color: "#22262B"
+  mdc-dialog-scrim-color: "rgba(0,0,0,0.6)"
+
+  paper-dropdown-menu-color: "#E9EEF2"
+  paper-input-container-color: "#AAB4BD"
+  paper-input-container-focus-color: "#72D8E5"
+
+  input-fill-color: "#22262B"
