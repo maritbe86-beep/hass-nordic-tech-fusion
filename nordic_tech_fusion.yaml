@@ -4,8 +4,12 @@ Nordic Tech Fusion:
   accent-color: "#72D8E5"         # glacier turquoise
   accent-medium: "#A88BFF"        # aurora violet
   
-  ### BACKGROUNDS
-  background-color: "#1A1D21"     # deep matte nordic night
+### BACKGROUNDS
+  background-color: "#1A1D21"     
+  primary-background-color: "#1A1D21"
+  secondary-background-color: "#1A1D21"
+  lovelace-background: "#1A1D21"
+  
   card-background-color: "#22262B"  
   darker-card-background: "#16181C"
   lighter-card-background: "#2A2F34"
